@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.feed-container {
+  max-height: 80vh;
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+}
+
+.feed-container::-webkit-scrollbar {
+  width: 0;  /* Set the width to 0 to hide the scrollbar */
+}
